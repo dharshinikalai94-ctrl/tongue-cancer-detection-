@@ -208,6 +208,13 @@ Open `http://localhost:5173` in your browser.
    - Android Emulator: `http://10.0.2.2:8000/` (maps to host localhost)
    - Physical Phone on Wi-Fi: `http://<YOUR_COMPUTER_IP>:8000/`
 
+### D. Deploying to Vercel (No 404 Error)
+This project is configured with `vercel.json` and client-side SPA rewrites.
+- **Option 1 (Deploy whole repo from root - Recommended)**:
+  Connect your repository to Vercel without changing the root directory. Vercel automatically uses `/vercel.json` and `/package.json` to build `frontend-web/dist`.
+- **Option 2 (Set Root Directory to `frontend-web`)**:
+  In Vercel Project Settings > General > **Root Directory**, set to `frontend-web`. Vercel automatically runs Vite and uses `frontend-web/vercel.json` for SPA routing.
+
 ---
 
 ## 7. Medical Disclaimer & Ethics

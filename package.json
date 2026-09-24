@@ -1,0 +1,10 @@
+{
+  "name": "tongue-cancer-detection-app",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm --prefix frontend-web run build",
+    "install": "npm --prefix frontend-web install",
+    "dev": "npm --prefix frontend-web run dev"
+  }
+}
