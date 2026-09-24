@@ -1,0 +1,6 @@
+{
+  "name": "TongueScan AI",
+  "description": "AI-Based Tongue Cancer Detection System Using EfficientNet-B0",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
